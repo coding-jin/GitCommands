@@ -12,9 +12,10 @@ $ git push -u origin master
 # put in username&password
 ```
 
-### When on adding on to your repository online with changes
+### When adding on to your repository online with changes
 ``` sh
 $ git add .
+$ git add -u # when you have deleted a local file you want to remove from your repo
 $ git commit -m 'what has changed'
 $ git push
 # put in username&password
